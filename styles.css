@@ -1,56 +1,91 @@
-body{
-    background-color: #E2E5F5;
-    display: flex;
-    flex-direction: column;
+body {
+	background-color: #e2e5f5;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 30rem;
+	height: 40rem;
+	background-color: white;
+	border-radius: 0.6rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+form {
+	position: relative;
+	width: 25rem;
+	height: 35rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.email-login {
+	position: relative;
+	width: 25rem;
+	height: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.cta-btn {
+	width: 25rem;
+	height: 5rem;
+	border-radius: 0.8rem;
+	background-color: #4544b5;
+	border: #4544b5;
+	color: white;
+}
+.forget-pass {
+	color: #4544b5;
+	width: 25rem;
+	height: 5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+img {
+	width: 2rem;
+	height: 2rem;
+    padding: 0.3rem;
+}
+
+.social-login {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 25rem;
+}
+
+.google-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+	border-radius: 0.8rem;
+	background-color: white;
+	font-weight: 700;
+	padding: 0.4rem;
+	width: 21rem;
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 30rem;
-    height: 40rem;
-    background-color: white;
-    border-radius: 0.6rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-}
-form{
-    position:relative;
-    width: 25rem;
-    height: 35rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.email-login{
-    position:relative;
-    width: 25rem;
-    height: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    
-}
-.cta-btn{
-    width: 25rem;
-    height: 5rem;
-    border-radius: 0.8rem;
-    background-color:#4544B5;
-    border:#4544B5;
-    color: white;
-}
-.forget-pass{
-    color:#4544B5;
-    width: 25rem;
-    height: 5rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
+
+.fb-btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 0.8rem;
+	background-color: white;
+	font-weight: 700;
+	padding: 0.4rem;
 }
