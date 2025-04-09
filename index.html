@@ -6,13 +6,11 @@
    <title>Document</title>
    <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
    <div class="card">
       <form>
          <h1 class="title"> Log in</h1>
          <p class="subtitle">Don't have an account? <a href="#"> sign Up</a></p>
-
          <div class="social-login">
             <button class="google-btn">
                <img alt="Google"
@@ -24,9 +22,11 @@
                   src="./assets/logo-fb.png" />
             </button>
          </div>
-
-         <p class="or"><span>___________________ or ___________________</span></p>
-
+         <p>
+            <span class="line">____________________</span>
+            <span id="or">or</span>
+            <span class="line">____________________</span>
+         </p>
          <div class="email-login">
             <label for="email"><b>Email</b></label>
             <input type="text" placeholder="Enter Email" name="uname" required>
@@ -38,5 +38,4 @@
       </form>
    </div>
 </body>
-
 </html>

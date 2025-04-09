@@ -42,7 +42,6 @@ form {
     font-size: 1.3rem;
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: ;
 }
 .email-login {
 	position: relative;
@@ -62,7 +61,6 @@ form {
     margin-top: 2rem;    
 }
 .forget-pass {
-	color: #4544b5;
 	width: 25rem;
 	height: 5rem;
 	display: flex;
@@ -102,6 +100,9 @@ img {
 	padding: 0.4rem;
     border: 2px solid #44489F;
 }
+.line{
+	color: #F1F1F1;
+}
 label{
     color:#A5A5A5;
     font-weight: 500;
@@ -118,9 +119,14 @@ input{
 }
 a{
     text-decoration: none;
+	color: #1702B7;
 }
 .forget-pass{
     font-weight: 700;
     font-size: 1.3rem;
     margin-top:0.8rem;
+}
+#or{
+	font-weight: 800;
+	font-size: 1.3rem;
 }
