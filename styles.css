@@ -20,3 +20,37 @@ body{
     border-radius: 0.6rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
+form{
+    position:relative;
+    width: 25rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-login{
+    position:relative;
+    width: 25rem;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.cta-btn{
+    width: 25rem;
+    height: 5rem;
+    border-radius: 0.8rem;
+    background-color:#4544B5;
+    border:#4544B5;
+    color: white;
+}
+.forget-pass{
+    color:#4544B5;
+    width: 25rem;
+    height: 5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
