@@ -40,6 +40,12 @@ The goal of this project is to **apply CSS styles to an existing HTML structure*
 
 ---
 
+### 🚀 Deploy
+
+[Visit the deploy app here!](https://more-pe.github.io/femCoders-pr2/)
+
+---
+
 ### 👥 Team Members
 
 - [Ana Carina Pillajo](https://github.com/acpp2510)  
